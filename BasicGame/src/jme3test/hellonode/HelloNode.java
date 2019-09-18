@@ -20,6 +20,7 @@ import com.jme3.scene.shape.Line;
 import com.jme3.scene.Geometry;
 import com.jme3.scene.Node;
 import com.jme3.system.AppSettings;
+import com.sun.glass.events.KeyEvent;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.awt.image.BufferedImage;
@@ -317,7 +318,7 @@ public class HelloNode extends SimpleApplication {
                     graph(txt.getText(), Float.valueOf(xMinTxt.getText()), Float.valueOf(xMaxTxt.getText()), Float.valueOf(yMinTxt.getText()), Float.valueOf(yMaxTxt.getText()), Integer.valueOf(resTxt.getText()));
                     System.out.println(str);
                     str.setLength(0);
-                } else if (evt.getKeyChar() == '\b' && typeMenu[menuRow][menuCol].getText().length() > 0) {
+                } else if ((evt.getKeyCode() == KeyInput.KEY_BACK || evt.getKeyCode() == KeyInput.KEY_DELETE) && typeMenu[menuRow][menuCol].getText().length() > 0) {
                     str = str = new StringBuilder(typeMenu[menuRow][menuCol].getText());
                     str.deleteCharAt(str.length() - 1);
                     typeMenu[menuRow][menuCol].setText(str.toString());
@@ -326,6 +327,7 @@ public class HelloNode extends SimpleApplication {
                             menu[menuRow][i].setLocalTranslation(menu[menuRow][i - 1].getLocalTranslation().add(menu[menuRow][i - 1].getLineWidth(), 0, 0));
                         }
                     }
+                    
 
                 } else if (evt.getKeyCode() == KeyInput.KEY_DIVIDE || (evt.getKeyCode() != 42 && evt.getKeyCode() != 14 && evt.getKeyCode() != 15 && evt.getKeyCode() < 100)) {
                     System.out.println(evt);
