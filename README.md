@@ -2,7 +2,7 @@
 ![Image of TitleBox](https://github.com/ElRoberto13/3D-Graphing-Calculator/blob/master/BasicGame/src/dialogimage.png)
 
 
-## A compleye 3D Graphing Calculator App made entirely in Java.
+## A complete 3D Graphing Calculator App made entirely in Java.
 
 FEATURES:
 
