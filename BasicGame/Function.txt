@@ -1,0 +1,4 @@
+Function: z = x^2 + y^2
+X-Range: (-10,10)
+Y-Range: (-10,10)
+Resolution: 100
