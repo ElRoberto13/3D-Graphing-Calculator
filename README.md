@@ -43,7 +43,7 @@ CONTROLS:
 - Any other typing: Add to Current Selected Option
 - Tab: Close Graph Settings
 
-Available Functions:
+AVAILABLE FUNCTIONS:
 
 - Sine: sin()
 - Cosine: cos()
