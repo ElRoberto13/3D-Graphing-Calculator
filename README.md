@@ -27,7 +27,7 @@ CONTROLS:
 - A: Orbit Left
 - D: Orbit Right
 - Q: Move Up
-- E: Mode Down
+- Z: Mode Down
 - 1: Reset to Default Color Scheme
 - 2: Change to Random Color Scheme
 - Escape: Exit Program
