@@ -66,4 +66,4 @@ AVAILABLE FUNCTIONS:
 - Square Root: sqrt()
 - Sum: sum()
 
-Created by Robert Wetzler
+Created by Robert Wetzler in 2018
