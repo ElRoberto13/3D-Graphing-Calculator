@@ -16,7 +16,8 @@ FEATURES:
 HOW TO START:
 
 1. Clone the Repository
-2. Click the shortcut called “Run Grapher”
+2. Click the shortcut called “Run Grapher” or run /BasicGame/dist/MyGame.jar
+3. If the application doesn't appear to open, try unselecting "Fullscreen"
 
 CONTROLS:
 
